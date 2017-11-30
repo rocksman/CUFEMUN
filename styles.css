@@ -1,0 +1,54 @@
+body{
+}
+fieldset{
+    border-width: 5px;
+    border-color:lightcoral;
+    width: 37%;
+    margin: auto;
+    font-family: Roboto;
+    color: black;
+    border-radius: 3%;
+}
+h1{
+    font-family: Roboto;
+    text-align: center;
+}
+#section1{
+    background-image: url('sitebg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 656px;
+}
+#days{
+    font-size: 8vw;
+}
+#date{
+    font-size: 4vw;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+#logo{
+    display: block;
+    margin: auto;
+    width: 18vw;
+}
+#csoon{
+    font-family: Roboto;
+    font-size: 2.2vw;
+    padding: 15px;
+    text-align: center;
+}
+#footer{
+    background-color: #8f2f1f;
+    height: 20px;
+    font-family: roboto;
+    text-align: right;
+    font-size: 14px;
+    padding: 5px;
+    padding-right: 50px;
+}
+#email{
+    border-right-style: solid;
+    padding-right: 5px;
+    border-width: 1px;
+}
