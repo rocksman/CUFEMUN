@@ -18,13 +18,10 @@ fieldset{
     color: black;
     border-radius: 3%;
 }
-h1{
-    font-family: Roboto;
-    text-align: center;
-}
 #section1{
     display: flex;
     flex-direction: column;
+    height: 100vh;
     justify-content: space-between;
 }
 #days{
