@@ -1,4 +1,13 @@
 body{
+    margin: 0;
+    height: 100vh;
+    background-image: url('sitebg.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+html{
+    margin-bottom: 0;
+    height: 100vh; 
 }
 fieldset{
     border-width: 5px;
@@ -14,10 +23,9 @@ h1{
     text-align: center;
 }
 #section1{
-    background-image: url('sitebg.jpg');
-    background-size: cover;
-    background-attachment: fixed;
-    height: 656px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 #days{
     font-size: 8vw;
@@ -41,14 +49,13 @@ h1{
 #footer{
     background-color: #8f2f1f;
     height: 20px;
-    font-family: roboto;
+    font-family: 'Roboto';
     text-align: right;
-    font-size: 14px;
-    padding: 5px;
-    padding-right: 50px;
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
-#email{
-    border-right-style: solid;
-    padding-right: 5px;
-    border-width: 1px;
+#footer span{
+    margin-right: 15px;
 }
+

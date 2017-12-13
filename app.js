@@ -26,8 +26,8 @@ var x = setInterval(function () {
     if (seconds < 10) {
         seconds = "0" + seconds;
     }
-    document.getElementById("days").innerHTML = days + '<span> days</span>';
-    document.getElementById("date").innerHTML = hours + '<span> : </span>' + minutes + '<span> : </span>' + seconds;
+    document.getElementById("days").innerHTML = days + ' days';
+    document.getElementById("date").innerHTML = hours + ' : ' + minutes + ' : ' + seconds;
     if (distance < 0) {
         clearInterval(x);
         document.getElementById("demo").innerHTML = "EXPIRED";
